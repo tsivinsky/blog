@@ -2,7 +2,9 @@
 
 ## useful commands
 
-### sync cache about remote's branches in local repo
+### branches
+
+#### sync cache about remote's branches in local repo
 
 if running `git branch -a` shows something like this
 
