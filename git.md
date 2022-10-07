@@ -2,6 +2,23 @@
 
 ## useful commands
 
+### hooks
+
+#### how to put git hooks on GitHub
+
+```bash
+git config --local core.hooksPath [./path/to/git/hooks/dir]
+```
+
+but the thing is that every user that clones your repo should run this command. The solution is to run it with other command cloner will run anyway.
+
+if you use npm or yarn, you can add `prepare` script with this command. now, after running `npm i` or `yarn` it will run this command.
+
+some of the most useful git hooks (IMHO) are:
+  - `precommit` to validate staged files;
+  - `commitmsg` to validate commit messages;
+  - `prepush` to run command before push; // building the project for example, to ensure it doesn't have any errors
+
 ### branches
 
 #### sync cache about remote's branches in local repo
