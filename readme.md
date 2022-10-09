@@ -7,3 +7,5 @@ its really just a bunch of markdown files with somewhat useful code snippets, th
 ### [git](./git.md)
 
 ### [docker](./docker.md)
+
+### [linux](./linux.md)
