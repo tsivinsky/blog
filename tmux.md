@@ -12,7 +12,7 @@ man tmux
 
 ### [wiki page on github](https://github.com/tmux/tmux/wiki)
 
-## Commands
+## CLI Commands
 
 ### Start a new session
 
@@ -39,3 +39,26 @@ tmux a -t webapp
 Hit <kbd>C-b</kbd> + <kbd>d</kbd> and tmux will save your session with all your opened and running windows and command, and after that close itself.
 
 > NOTE: tmux sessions are saved on the disk, so after you shutdown or reboot your computer or server, there will be no tmux sessions open.
+
+### Open new window
+
+Hit <kbd>C-b</kbd> + <kbd>n</kbd>
+
+### Switch between windows
+
+ - <kbd>C-b</kbd> + <kbd>n</kbd> - switches to the next window
+ - <kbd>C-b</kbd> + <kbd>p</kbd> - switches to the previous window
+
+### Run tmux command
+
+Hit <kbd>C-b</kbd> + <kbd>C-:</kbd>. This will open command prompt at the bottom where you can run [tmux commands](#tmux-commands).
+
+## Tmux commands
+
+### Kill focused window
+
+Open command prompt and run `kill-window`
+
+### Kill whole session
+
+Open command prompt and run `kill-session`
