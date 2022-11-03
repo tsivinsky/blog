@@ -9,3 +9,5 @@ its really just a bunch of markdown files with somewhat useful code snippets, th
 ### [docker](./docker.md)
 
 ### [linux](./linux.md)
+
+### [tmux](./tmux.md)
